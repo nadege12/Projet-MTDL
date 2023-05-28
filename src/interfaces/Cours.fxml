@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="704.0" prefWidth="1114.0" style="-fx-background-color: #FF0101;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.CoursController">
+   <children>
+      <Label fx:id="titre" layoutX="21.0" layoutY="28.0" text="Titre du Cours : Infographie 2D &amp; 3D" textFill="#fcfcfc">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="557.0" layoutY="186.0" onAction="#voirCours" prefHeight="46.0" prefWidth="247.0" style="-fx-background-color: white;" text="Voir le cours" />
+      <JFXButton layoutX="745.0" layoutY="431.0" onMouseClicked="#retour" prefHeight="31.0" prefWidth="101.0" style="-fx-background-color: white;" text="Retour" />
+      <Label fx:id="prof" layoutX="14.0" layoutY="140.0" text="Nom du Prof : Mr Augustin Landel" textFill="#eeecec">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+      <JFXTextArea fx:id="cours" layoutX="2.0" layoutY="265.0" prefHeight="426.0" prefWidth="736.0" unFocusColor="#e8e3e3" />
+   </children>
+</AnchorPane>

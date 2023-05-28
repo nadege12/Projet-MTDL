@@ -1,0 +1,84 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.parent
+{
+    -fx-background-color : transparent ;
+}
+
+.pane
+{
+    -fx-background-color : #407CA8;
+}
+.trans-btn-white-border
+{
+    -fx-background-color : transparent;
+    -fx-background-radius: 5px;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+    -fx-text-fill: whitesmoke ;
+}
+.white-pane
+{
+    -fx-background-image: url("/image/logo3.jpg");
+    -fx-background-size: 281 403;
+    -fx-background-position: center center;
+    -fx-background-color: #FFFFFF;
+}
+.tf_box {
+    -fx-background-color : transparent;
+    -fx-border-color: #DEDEE4;
+    -fx-border-width: 0px 0px 1px 0px;
+}
+.tf
+{
+    -fx-background-color : transparent;
+    -fx-prompt-text-fill: #2C2C2C;
+}
+.pink-btn
+{
+    -fx-background-color: #C5304D;
+    -fx-background-radius: 5px;
+    -fx-text-fill : #FFFFFF;
+}
+.backgrund{
+    -fx-background-color : #F7F7F7;
+    -fx-background: 0px;
+
+}
+.table-view{
+    -fx-background-color : transparent;   
+}
+.table-view:focused{
+    -fx-background-color : transparent;   
+}
+.table-view .column-header-background{
+    -fx-background-color : linear-gradient(#131313 0% , #424242 100%);
+}
+
+.quiz-container {
+    -fx-background-color: derive(#f5f6f7, -10%);
+}
+
+
+.question-label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.option-radio-button {
+    -fx-font-size: 14px;
+}
+
+.submit-button {
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+}
+
+.result-label {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}

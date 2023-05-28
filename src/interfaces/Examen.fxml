@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="687.0" prefWidth="910.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ExamenController">
+   <children>
+      <Label fx:id="question1" prefHeight="21.0" prefWidth="729.0" text="Qu'est ce que l'infographie ?" textFill="#514a4a">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <JFXRadioButton fx:id="option1">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </JFXRadioButton>
+      <JFXRadioButton fx:id="option2" layoutX="10.0" layoutY="79.0">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </JFXRadioButton>
+      <JFXRadioButton fx:id="option3" layoutX="10.0" layoutY="128.0" text="RadioButton">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </JFXRadioButton>
+      <JFXRadioButton fx:id="option4" layoutX="10.0" layoutY="177.0">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </JFXRadioButton>
+      <Label fx:id="question2" layoutX="10.0" layoutY="10.0" prefHeight="21.0" prefWidth="729.0" text="C'est quoi l'infographie 2D ?" textFill="#514a4a">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <JFXRadioButton fx:id="option5" layoutX="10.0" layoutY="55.0">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </JFXRadioButton>
+      <JFXRadioButton fx:id="option6" layoutX="10.0" layoutY="93.0">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </JFXRadioButton>
+      <JFXRadioButton fx:id="option7" layoutX="10.0" layoutY="131.0" text="RadioButton">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </JFXRadioButton>
+      <JFXRadioButton fx:id="option8" layoutX="10.0" layoutY="169.0">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </JFXRadioButton>
+      <JFXButton onAction="#valider" prefHeight="73.0" prefWidth="265.0" style="-fx-background-color: red;" text="Valider" textFill="#f2ecec" />
+      <HBox prefHeight="45.0" prefWidth="705.0">
+         <VBox.margin>
+            <Insets left="80.0" right="100.0" top="30.0" />
+         </VBox.margin>
+         <padding>
+            <Insets left="30.0" />
+         </padding>
+         <children>
+            <JFXButton onMouseClicked="#quitter" prefHeight="50.0" prefWidth="133.0" style="-fx-background-color: red;" text="Quitter" textFill="#f2ecec" />
+         </children>
+      </HBox>
+   </children>
+</VBox>

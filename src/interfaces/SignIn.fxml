@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="Vbox" alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="386.0" prefWidth="281.0" styleClass="white-pane" stylesheets="@../Application/style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.SignInController">
+   <children>
+      <Label text="Se connecter" textFill="#eb1414">
+         <VBox.margin>
+            <Insets left="20.0" />
+         </VBox.margin>
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <HBox alignment="CENTER_LEFT" prefHeight="35.0" prefWidth="200.0">
+         <children>
+            <JFXTextField fx:id="txt_username" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" promptText="Nom d'utilisateur" styleClass="tf" stylesheets="@../Application/style.css" unFocusColor="#dedee4" HBox.hgrow="ALWAYS" />
+            <FontAwesomeIconView fill="#b2aaaa" glyphName="USER" size="18" />
+         </children>
+         <VBox.margin>
+            <Insets left="15.0" right="15.0" top="20.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" layoutX="25.0" layoutY="209.0" prefHeight="35.0" prefWidth="200.0">
+         <children>
+            <JFXPasswordField fx:id="txt_password" prefHeight="31.0" prefWidth="238.0" promptText="mot de passe" />
+            <FontAwesomeIconView fill="#9e9696" glyphName="LOCK" size="18" />
+         </children>
+         <VBox.margin>
+            <Insets left="15.0" right="15.0" top="20.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox alignment="CENTER_RIGHT" prefHeight="35.0" prefWidth="200.0">
+         <children>
+            <JFXButton fx:id="btn_passwordfortotten" alignment="BASELINE_LEFT" maxHeight="1.7976931348623157E308" onAction="#sendPassword" prefHeight="35.0" prefWidth="154.0" text="Mot de passe oublié?" HBox.hgrow="ALWAYS">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btn_seconnecter" contentDisplay="BOTTOM" onAction="#openHome" prefHeight="31.0" prefWidth="96.0" styleClass="pink-btn" stylesheets="@../Application/style.css" text="Se connecter">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </JFXButton>
+         </children>
+         <VBox.margin>
+            <Insets left="10.0" right="15.0" top="20.0" />
+         </VBox.margin>
+      </HBox>
+   </children>
+</VBox>

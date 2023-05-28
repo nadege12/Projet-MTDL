@@ -1,0 +1,12 @@
+Question: Qu'est ce que l'infographie?
+Réponse 1: C'est un outil mathematiques qui permet de faire des calculs.
+Réponse 2: Aucunes reponses correctes
+Réponse 3: C'est un outil de dessin tecnhique
+Réponse 4 (Bonne réponse): permet la l'animations des images en 2D , 3D pour des jeux video
+
+Question: Combien de type d'infographie existe t-il?
+Réponse 1: 4
+Réponse 2: 1
+Réponse 3: 10
+Réponse 4 (Bonne réponse): 2
+

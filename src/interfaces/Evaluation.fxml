@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="378.0" prefWidth="336.0" style="-fx-background-color: #2f466b;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label text="What is the capital of France?" />
+        <RadioButton fx:id="answer1" text="Paris" />
+        <RadioButton fx:id="answer2" text="London" />
+        <RadioButton fx:id="answer3" text="New York" />
+        <Button fx:id="submitButton" text="Submit" />
+    </children>
+    <children>
+        <Label text="What is the capital of France?" />
+        <RadioButton fx:id="answer4" text="Paris" />
+        <RadioButton fx:id="answer5" text="London" />
+        <RadioButton fx:id="answer6" text="New York" />
+        <Button fx:id="submitButton1" text="Submit" />
+    </children>
+    <children>
+        <Label text="What is the capital of France?" />
+        <RadioButton fx:id="answer7" text="Paris" />
+        <RadioButton fx:id="answer8" text="London" />
+        <RadioButton fx:id="answer9" text="New York" />
+        <Button fx:id="submitButton2" text="Submit" />
+    </children>
+</VBox>
